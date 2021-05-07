@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ -n "$1" ]; then cat <<'HELP'; exit; fi
+Usage: script/create-db
+Create the 'td' MySQL user as well as td_dev and td_test databases.
+Grant appropriate permissions to the user.
+HELP
+
+printf "Creating MySQL 'td' user for td_dev and td_test. MySQL root password required.\n"
+mysql --verbose -u root -p <<'SQL'
+CREATE USER 'td'@'localhost' IDENTIFIED BY 'travellersdiary';
+
+CREATE DATABASE td_dev CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL PRIVILEGES ON `td_dev`.* TO 'td'@'localhost';
+
+CREATE DATABASE td_test CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+GRANT ALL PRIVILEGES ON `td_test`.* TO 'td'@'localhost';
+SQL
+
