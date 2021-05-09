@@ -23,6 +23,8 @@ gem "slim", "~> 4.1"
 gem "mysql2", "~> 0.5.3"
 # Simple gem for http requests
 gem "http", "~> 4.4"
+# Sign in with Google
+gem "google_sign_in", "~> 1.2"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -60,4 +62,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
 
