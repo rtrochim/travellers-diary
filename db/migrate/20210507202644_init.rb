@@ -1,8 +1,11 @@
 class Init < ActiveRecord::Migration[6.1]
   def change
     create_table :users do |t|
+      t.string :uid
+      t.string :provider
       t.string :email
-      t.string :password
+      t.string :name
+      t.string :image
 
       t.timestamps
     end
@@ -32,7 +35,7 @@ class Init < ActiveRecord::Migration[6.1]
     end
 
     create_table :notes do |t|
-      t.references :user
+      t.references :user, foreign_key: { to_table: :users }
       t.references :city, foreign_key: { to_table: :locations }
       t.references :weather_report, foreign_key: { to_table: :weather_reports }
       t.references :covid_report, foreign_key: { to_table: :covid_reports }

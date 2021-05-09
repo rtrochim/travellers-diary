@@ -46,8 +46,11 @@ ActiveRecord::Schema.define(version: 2021_05_07_202644) do
   end
 
   create_table "users", charset: "utf8mb4", collation: "utf8mb4_unicode_ci", force: :cascade do |t|
+    t.string "uid"
+    t.string "provider"
     t.string "email"
-    t.string "password"
+    t.string "name"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -65,6 +68,7 @@ ActiveRecord::Schema.define(version: 2021_05_07_202644) do
   add_foreign_key "locations", "locations", column: "parent_id"
   add_foreign_key "notes", "covid_reports"
   add_foreign_key "notes", "locations", column: "city_id"
+  add_foreign_key "notes", "users"
   add_foreign_key "notes", "weather_reports"
   add_foreign_key "weather_reports", "locations", column: "city_id"
 end
