@@ -1,7 +1,6 @@
 class NotesController < ApplicationController
 
   def index
-    debugger
   end
 
   def new
