@@ -1,3 +1,11 @@
-h2
-   = "Log in for users"
-   = link_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path, method: :post
+.container-fluid.pt-5.mt-5
+  .row.pt-5.mt-5
+    main.form-signin.text-center.pt-5.mt-5
+      h1.h3.mb-5.fw-normal Welcome to Travellers Diary!
+      .row
+        .col-md-12
+          = link_to "#{image_tag("google-logo.png")} Sign in with Google".html_safe,
+                  user_google_oauth2_omniauth_authorize_path, method: :post,
+                  class: "btn btn-lg btn-light btn-block text-uppercase btn-outline-primary"
+      p.mt-5.mb-3.text-muted © 2021
+

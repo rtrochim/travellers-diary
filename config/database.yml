@@ -23,3 +23,5 @@ test:
 production:
   <<: *default
   url: <%= ENV.fetch("DATABASE_URL") {''} %>
+  username: <=% Rails.application.credentials.dig(:heroku,:db_login) %>
+  password: <=% Rails.application.credentials.dig(:heroku,:db_pass) %>

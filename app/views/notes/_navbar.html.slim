@@ -1,0 +1,13 @@
+nav.navbar.sticky-top.navbar-light.bg-light
+  .container-fluid
+    = link_to 'Travellers Diary', root_path, class: 'navbar-brand'
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0
+      li.nav-item
+        a.nav-link href="#"  Link
+    .d-inline-flex
+      span
+        = current_user.name
+      .mx-3
+        = image_tag current_user.image, size: 25
+      span
+        = link_to 'Logout', destroy_user_session_path
