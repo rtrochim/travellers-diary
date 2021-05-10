@@ -37,6 +37,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Fake data generation
+  gem "faker", "~> 2.17"
 end
 
 group :development do
@@ -68,3 +70,5 @@ gem "devise", "~> 4.8"
 gem "omniauth-google-oauth2", "~> 1.0"
 
 gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+

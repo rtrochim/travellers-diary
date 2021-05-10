@@ -11,3 +11,8 @@ Set up tables with
 ```
 bin/rails db:migrate
 ```
+
+Load static data with
+```
+bin/rails db:load_static
+```
