@@ -1,6 +1,6 @@
 # Travellers Diary
 
-Simple app for travellers to write notes about the places they visited.
+Simple app for travellers to write notes about places they visited.
 
 Create the databases using
 ```
@@ -15,4 +15,9 @@ bin/rails db:migrate
 Load static data with
 ```
 bin/rails db:load_static
+```
+
+Run tests with
+```
+bin/rspec
 ```
