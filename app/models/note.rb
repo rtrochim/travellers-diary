@@ -9,8 +9,8 @@ class Note < ApplicationRecord
   def set_reports
     city = Location.find(city_id)
     existing = CovidReport.find_by(country: city.parent, created_at: Time.current.all_day)
-    self.weather_report = WeatherReport.new(city: city)
-    self.covid_report = existing || CovidReport.new(country: city.parent)
+    self.weather_report = WeatherReport.new(city: city).get_data
+    self.covid_report = existing || CovidReport.new(country: city.parent).get_data
   end
 
   def destroy_orphan

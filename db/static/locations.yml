@@ -731,9 +731,6 @@
 - :id: 245
   :name: Bahía Blanca
   :parent_id: 6
-- :id: 246
-  :name: Baltimore, Maryland
-  :parent_id: 181
 - :id: 247
   :name: Bamberg
   :parent_id: 65
@@ -752,9 +749,6 @@
 - :id: 252
   :name: Barcelona
   :parent_id: 160
-- :id: 253
-  :name: Barcelona, Venezuela
-  :parent_id: 184
 - :id: 254
   :name: Bari
   :parent_id: 87
@@ -1082,21 +1076,12 @@
 - :id: 362
   :name: Colombo
   :parent_id: 161
-- :id: 363
-  :name: Columbus, Ohio
-  :parent_id: 181
 - :id: 364
   :name: Colonia del Sacramento
   :parent_id: 182
 - :id: 365
   :name: Colorado Springs
   :parent_id: 181
-- :id: 366
-  :name: Concepción, Chile
-  :parent_id: 38
-- :id: 367
-  :name: Concepción, Paraguay
-  :parent_id: 138
 - :id: 368
   :name: Copenhagen
   :parent_id: 49
@@ -1148,9 +1133,6 @@
 - :id: 384
   :name: Częstochowa
   :parent_id: 141
-- :id: 385
-  :name: Córdoba, Argentina
-  :parent_id: 6
 - :id: 386
   :name: Cúcuta
   :parent_id: 40
@@ -1346,9 +1328,6 @@
 - :id: 451
   :name: Freiburg
   :parent_id: 65
-- :id: 452
-  :name: Fresno, California
-  :parent_id: 181
 - :id: 453
   :name: Fribourg
   :parent_id: 166
@@ -1502,12 +1481,6 @@
 - :id: 503
   :name: Hamburg
   :parent_id: 65
-- :id: 504
-  :name: Hamilton, New Zealand
-  :parent_id: 127
-- :id: 505
-  :name: Hamilton, Canada
-  :parent_id: 33
 - :id: 506
   :name: Hangzhou
   :parent_id: 39
@@ -1592,9 +1565,6 @@
 - :id: 533
   :name: Hyderabad
   :parent_id: 81
-- :id: 534
-  :name: Hyderābād, Pakistan
-  :parent_id: 134
 - :id: 535
   :name: Hämeenlinna
   :parent_id: 60
@@ -1826,9 +1796,6 @@
 - :id: 611
   :name: La Serena
   :parent_id: 38
-- :id: 612
-  :name: Lagos, Portugal
-  :parent_id: 142
 - :id: 613
   :name: Lahore
   :parent_id: 134
@@ -1952,9 +1919,6 @@
 - :id: 655
   :name: Los Teques
   :parent_id: 184
-- :id: 656
-  :name: Louisville / Jefferson County, Kentucky
-  :parent_id: 181
 - :id: 657
   :name: Lublin
   :parent_id: 141
@@ -2168,12 +2132,6 @@
 - :id: 727
   :name: Murcia
   :parent_id: 160
-- :id: 728
-  :name: Mérida, Venezuela
-  :parent_id: 184
-- :id: 729
-  :name: Mérida, Mexico
-  :parent_id: 115
 - :id: 730
   :name: México DF
   :parent_id: 115
@@ -2252,9 +2210,6 @@
 - :id: 755
   :name: Neuquén
   :parent_id: 6
-- :id: 756
-  :name: New Orleans, Louisiana
-  :parent_id: 181
 - :id: 757
   :name: New York City
   :parent_id: 181
@@ -2342,9 +2297,6 @@
 - :id: 785
   :name: Olsztyn
   :parent_id: 141
-- :id: 786
-  :name: Omaha, Nebraska
-  :parent_id: 181
 - :id: 787
   :name: Omsk
   :parent_id: 147
@@ -2762,9 +2714,6 @@
 - :id: 925
   :name: San José del Guaviare
   :parent_id: 40
-- :id: 926
-  :name: San Juan, Argentina
-  :parent_id: 6
 - :id: 927
   :name: San Juan Bautista
   :parent_id: 138
@@ -3086,12 +3035,6 @@
 - :id: 1033
   :name: Trieste
   :parent_id: 87
-- :id: 1034
-  :name: Trinidad, Uruguay
-  :parent_id: 182
-- :id: 1035
-  :name: Trinidad, Bolivia
-  :parent_id: 22
 - :id: 1036
   :name: Tromsø
   :parent_id: 132
@@ -3101,18 +3044,12 @@
 - :id: 1038
   :name: Trujillo
   :parent_id: 139
-- :id: 1039
-  :name: Tucson, Arizona
-  :parent_id: 181
 - :id: 1040
   :name: Tucumán
   :parent_id: 6
 - :id: 1041
   :name: Tulcán
   :parent_id: 51
-- :id: 1042
-  :name: Tulsa, Oklahoma
-  :parent_id: 181
 - :id: 1043
   :name: Tumbes
   :parent_id: 139
@@ -3182,9 +3119,6 @@
 - :id: 1065
   :name: Valencia
   :parent_id: 160
-- :id: 1066
-  :name: Valencia, Venezuela
-  :parent_id: 184
 - :id: 1067
   :name: Valenciennes
   :parent_id: 61
@@ -4283,9 +4217,6 @@
 - :id: 1433
   :name: Khartoum
   :parent_id: 162
-- :id: 1434
-  :name: Lagos, Nigeria
-  :parent_id: 130
 - :id: 1435
   :name: Paramaribo
   :parent_id: 163
@@ -4346,9 +4277,6 @@
 - :id: 1454
   :name: Harare
   :parent_id: 189
-- :id: 1455
-  :name: San Juan, Puerto Rico
-  :parent_id: 143
 - :id: 1456
   :name: Bayamón
   :parent_id: 143
@@ -4370,39 +4298,12 @@
 - :id: 1462
   :name: West Sussex
   :parent_id: 180
-- :id: 1463
-  :name: Daytona Beach, Florida
-  :parent_id: 181
-- :id: 1464
-  :name: Portland, Maine
-  :parent_id: 181
-- :id: 1465
-  :name: Newark, New Jersey
-  :parent_id: 181
-- :id: 1466
-  :name: Cincinnati, Ohio
-  :parent_id: 181
-- :id: 1467
-  :name: Bangor, Maine
-  :parent_id: 181
-- :id: 1468
-  :name: Tallahassee, Florida
-  :parent_id: 181
 - :id: 1471
   :name: Loulé
   :parent_id: 142
-- :id: 1472
-  :name: Baton Rouge, Louisiana
-  :parent_id: 181
-- :id: 1473
-  :name: Hammond, Louisiana
-  :parent_id: 181
 - :id: 1474
   :name: Puerto Vallarta
   :parent_id: 115
-- :id: 1475
-  :name: Champaign - Urbana, Ilinois
-  :parent_id: 181
 - :id: 1476
   :name: Thiruvananthapuram
   :parent_id: 81
@@ -4436,9 +4337,6 @@
 - :id: 1486
   :name: Montreux
   :parent_id: 166
-- :id: 1487
-  :name: Greenville, South Carolina
-  :parent_id: 181
 - :id: 1488
   :name: Bishop's Stortford
   :parent_id: 180
@@ -4466,23 +4364,8 @@
 - :id: 1496
   :name: Harrisburg
   :parent_id: 181
-- :id: 1497
-  :name: Columbia, South Carolina
-  :parent_id: 181
-- :id: 1498
-  :name: Annandale, Virginia
-  :parent_id: 181
 - :id: 1499
   :name: Hilton Head Island
-  :parent_id: 181
-- :id: 1500
-  :name: Little Rock, Arkansas
-  :parent_id: 181
-- :id: 1501
-  :name: Reno, Nevada
-  :parent_id: 181
-- :id: 1502
-  :name: Dothan, Alabama
   :parent_id: 181
 - :id: 1503
   :name: Kelowna
@@ -4490,47 +4373,17 @@
 - :id: 1504
   :name: Brandon
   :parent_id: 33
-- :id: 1505
-  :name: Funchal, Madeira
-  :parent_id: 142
-- :id: 1506
-  :name: Hartford, Connecticut
-  :parent_id: 181
-- :id: 1507
-  :name: San Marcos, Texas
-  :parent_id: 181
-- :id: 1509
-  :name: Odessa, Texas
-  :parent_id: 181
 - :id: 1511
   :name: Thousand Oaks
   :parent_id: 181
-- :id: 1512
-  :name: Rossendale, Lancashire
-  :parent_id: 180
-- :id: 1513
-  :name: Akron - Canton, Ohio
-  :parent_id: 181
-- :id: 1514
-  :name: London, Ontario
-  :parent_id: 33
 - :id: 1515
   :name: Rapid City
   :parent_id: 181
 - :id: 1516
   :name: Cape Coral – Fort Myers
   :parent_id: 181
-- :id: 1517
-  :name: Essex, Maryland
-  :parent_id: 181
-- :id: 1518
-  :name: Dunbar, West Virginia
-  :parent_id: 181
 - :id: 1519
   :name: Pittsburgh
-  :parent_id: 181
-- :id: 1520
-  :name: Macon, Georgia
   :parent_id: 181
 - :id: 1521
   :name: Essex
@@ -4553,9 +4406,6 @@
 - :id: 1527
   :name: Myrtle Beach
   :parent_id: 181
-- :id: 1528
-  :name: Charleston, South Carolina
-  :parent_id: 181
 - :id: 1529
   :name: Angeles City
   :parent_id: 140
@@ -4568,17 +4418,11 @@
 - :id: 1532
   :name: Windsor
   :parent_id: 33
-- :id: 1533
-  :name: Huntsville, Alabama
-  :parent_id: 181
 - :id: 1534
   :name: Palm Harbor
   :parent_id: 181
 - :id: 1535
   :name: Tampa
-  :parent_id: 181
-- :id: 1536
-  :name: Springfield, Missouri
   :parent_id: 181
 - :id: 1537
   :name: Wirral
@@ -4586,68 +4430,20 @@
 - :id: 1540
   :name: Jidhafs
   :parent_id: 13
-- :id: 1541
-  :name: Dover, Delaware
-  :parent_id: 181
-- :id: 1542
-  :name: Wilmington, Delaware
-  :parent_id: 181
-- :id: 1543
-  :name: Newark, Delaware
-  :parent_id: 181
-- :id: 1544
-  :name: West Chester, Pennsylvania
-  :parent_id: 181
-- :id: 1545
-  :name: Deptford, New Jersey
-  :parent_id: 181
 - :id: 1546
   :name: Rehoboth Beach
   :parent_id: 181
 - :id: 1547
   :name: Bournemouth
   :parent_id: 180
-- :id: 1548
-  :name: Maui Island, Hawaii
-  :parent_id: 181
 - :id: 1549
   :name: Fort Lauderdale
   :parent_id: 181
 - :id: 1550
   :name: Burton upon Trent
   :parent_id: 180
-- :id: 1552
-  :name: Baltimore, Ohio
-  :parent_id: 181
-- :id: 1553
-  :name: Truro, Cornwall
-  :parent_id: 180
-- :id: 1554
-  :name: Kingston, Ontario
-  :parent_id: 33
-- :id: 1555
-  :name: Walnut Creek, California
-  :parent_id: 181
-- :id: 1556
-  :name: Hayward, California
-  :parent_id: 181
-- :id: 1557
-  :name: Chattanooga, Tennessee
-  :parent_id: 181
-- :id: 1558
-  :name: Salt Lake City, Utah
-  :parent_id: 181
-- :id: 1559
-  :name: Des Moines, Iowa
-  :parent_id: 181
 - :id: 1560
   :name: El Cerrito
-  :parent_id: 181
-- :id: 1561
-  :name: Grand Junction, Colorado
-  :parent_id: 181
-- :id: 1562
-  :name: Savannah, Georgia
   :parent_id: 181
 - :id: 1563
   :name: Cannes
@@ -4655,15 +4451,6 @@
 - :id: 1564
   :name: Parramatta NSW
   :parent_id: 9
-- :id: 1565
-  :name: Davenport, Iowa
-  :parent_id: 181
-- :id: 1566
-  :name: San Jose, California
-  :parent_id: 181
-- :id: 1567
-  :name: Fremont, California
-  :parent_id: 181
 - :id: 1568
   :name: Gurgaon
   :parent_id: 81
@@ -4691,18 +4478,6 @@
 - :id: 1582
   :name: 'Rimini '
   :parent_id: 87
-- :id: 1590
-  :name: Morristown, New Jersey
-  :parent_id: 181
-- :id: 1592
-  :name: Fairfax County, Virginia
-  :parent_id: 181
-- :id: 1594
-  :name: Secaucus - Meadowlands, New Jersey
-  :parent_id: 181
-- :id: 1596
-  :name: Georgetown, Penang
-  :parent_id: 109
 - :id: 1598
   :name: Cape Breton - Sydney
   :parent_id: 33
@@ -4733,42 +4508,9 @@
 - :id: 1616
   :name: Lanzarote
   :parent_id: 160
-- :id: 1618
-  :name: Yakima, Washington
-  :parent_id: 181
-- :id: 1620
-  :name: Tacoma, Washington
-  :parent_id: 181
-- :id: 1622
-  :name: Spokane, Washington
-  :parent_id: 181
-- :id: 1624
-  :name: Vancouver, Washington
-  :parent_id: 181
-- :id: 1626
-  :name: Somerset, New Jersey
-  :parent_id: 181
-- :id: 1628
-  :name: Lake Charles, Louisiana
-  :parent_id: 181
-- :id: 1630
-  :name: Union City, California
-  :parent_id: 181
-- :id: 1632
-  :name: Union City, New Jersey
-  :parent_id: 181
-- :id: 1634
-  :name: Jersey City, New Jersey
-  :parent_id: 181
-- :id: 1636
-  :name: Chilliwack, BC
-  :parent_id: 33
 - :id: 1638
   :name: Palma de Mallorca
   :parent_id: 160
-- :id: 1640
-  :name: Herndon, Virginia
-  :parent_id: 181
 - :id: 1642
   :name: Dénia
   :parent_id: 160
@@ -4781,128 +4523,11 @@
 - :id: 1648
   :name: Mandaluyong
   :parent_id: 140
-- :id: 1650
-  :name: Northampton County, Eastern Shore of Virginia
-  :parent_id: 181
-- :id: 1652
-  :name: Accomack County, Eastern Shore of Virginia
-  :parent_id: 181
-- :id: 1656
-  :name: Bear, Delaware
-  :parent_id: 181
-- :id: 1658
-  :name: 'Richmond, Virginia '
-  :parent_id: 181
-- :id: 1660
-  :name: Port Charlotte, Florida
-  :parent_id: 181
-- :id: 1662
-  :name: Punta Gorda, Florida
-  :parent_id: 181
-- :id: 1664
-  :name: 'Paterson, New Jersey '
-  :parent_id: 181
-- :id: 1666
-  :name: Orem, Utah
-  :parent_id: 181
-- :id: 1668
-  :name: Vernal, Utah
-  :parent_id: 181
 - :id: 1670
   :name: Besançon
   :parent_id: 61
-- :id: 1672
-  :name: Knoxville, Tennessee
-  :parent_id: 181
-- :id: 1674
-  :name: Evansville, Indiana
-  :parent_id: 181
-- :id: 1676
-  :name: Lexington, Kentucky
-  :parent_id: 181
-- :id: 1678
-  :name: Charleston, West Virginia
-  :parent_id: 181
-- :id: 1680
-  :name: Columbus, Indiana
-  :parent_id: 181
-- :id: 1682
-  :name: Centralia, Washington
-  :parent_id: 181
-- :id: 1684
-  :name: Grand Rapids, Michigan
-  :parent_id: 181
-- :id: 1686
-  :name: Buffalo, New York
-  :parent_id: 181
-- :id: 1688
-  :name: Rochester, New York
-  :parent_id: 181
 - :id: 1690
   :name: Yonkers
-  :parent_id: 181
-- :id: 1692
-  :name: Syracuse, New York
-  :parent_id: 181
-- :id: 1694
-  :name: Albany, New York
-  :parent_id: 181
-- :id: 1696
-  :name: New Rochelle, New York
-  :parent_id: 181
-- :id: 1698
-  :name: Mount Vernon, New York
-  :parent_id: 181
-- :id: 1700
-  :name: Schenectady, New York
-  :parent_id: 181
-- :id: 1702
-  :name: Utica, New York
-  :parent_id: 181
-- :id: 1704
-  :name: Lincoln, Nebraska
-  :parent_id: 181
-- :id: 1706
-  :name: Crestview, Florida
-  :parent_id: 181
-- :id: 1708
-  :name: Destin, Florida
-  :parent_id: 181
-- :id: 1710
-  :name: Fort Walton Beach, Florida
-  :parent_id: 181
-- :id: 1712
-  :name: Laurel Hill, Florida
-  :parent_id: 181
-- :id: 1714
-  :name: Mary Esther, Florida
-  :parent_id: 181
-- :id: 1716
-  :name: Niceville, Florida
-  :parent_id: 181
-- :id: 1718
-  :name: Valparaiso, Florida
-  :parent_id: 181
-- :id: 1722
-  :name: Freeport, Florida
-  :parent_id: 181
-- :id: 1724
-  :name: Paxton, Florida
-  :parent_id: 181
-- :id: 1726
-  :name: Joliet, Illinois
-  :parent_id: 181
-- :id: 1728
-  :name: Morris, Illinois
-  :parent_id: 181
-- :id: 1730
-  :name: Bloomington-Normal, Illinois
-  :parent_id: 181
-- :id: 1732
-  :name: LaSalle County, Illinois
-  :parent_id: 181
-- :id: 1734
-  :name: Bellevue, Nebraska
   :parent_id: 181
 - :id: 1736
   :name: Roermond
@@ -4910,270 +4535,36 @@
 - :id: 1738
   :name: Abuja
   :parent_id: 130
-- :id: 1740
-  :name: Chesapeake, Virginia
-  :parent_id: 181
-- :id: 1742
-  :name: Hampton, Virginia
-  :parent_id: 181
-- :id: 1744
-  :name: Newport News, Virginia
-  :parent_id: 181
-- :id: 1746
-  :name: Norfolk, Virginia
-  :parent_id: 181
-- :id: 1748
-  :name: Portsmouth, Virginia
-  :parent_id: 181
-- :id: 1750
-  :name: Suffolk, Virginia
-  :parent_id: 181
-- :id: 1752
-  :name: Stockton, California
-  :parent_id: 181
-- :id: 1754
-  :name: Johnson City, Tennessee
-  :parent_id: 181
-- :id: 1756
-  :name: Huntington, West Virginia
-  :parent_id: 181
-- :id: 1758
-  :name: Dayton, Ohio
-  :parent_id: 181
-- :id: 1760
-  :name: Toledo, Ohio
-  :parent_id: 181
-- :id: 1762
-  :name: Walton County, Florida
-  :parent_id: 181
 - :id: 1764
   :name: Jaén
   :parent_id: 160
 - :id: 1766
   :name: Ciudad Real
   :parent_id: 160
-- :id: 1768
-  :name: Naples, Florida
-  :parent_id: 181
 - :id: 1770
   :name: Niagara Falls
   :parent_id: 33
-- :id: 1772
-  :name: Fayetteville, North Carolina
-  :parent_id: 181
-- :id: 1774
-  :name: Lafayette, Louisiana
-  :parent_id: 181
-- :id: 1776
-  :name: Morgantown, West Virginia
-  :parent_id: 181
-- :id: 1778
-  :name: Modesto, California
-  :parent_id: 181
-- :id: 1780
-  :name: Scranton, Pennsylvania
-  :parent_id: 181
-- :id: 1782
-  :name: Joplin, Missouri
-  :parent_id: 181
-- :id: 1784
-  :name: Palm Springs, California
-  :parent_id: 181
-- :id: 1786
-  :name: Youngstown, Ohio
-  :parent_id: 181
-- :id: 1788
-  :name: Monterey, California
-  :parent_id: 181
 - :id: 1790
   :name: Red Deer
   :parent_id: 33
 - :id: 1792
   :name: St. John's
   :parent_id: 33
-- :id: 1794
-  :name: Erie, Pennsylvania
-  :parent_id: 181
-- :id: 1796
-  :name: Boulder, Colorado
-  :parent_id: 181
-- :id: 1798
-  :name: Birmingham, Alabama
-  :parent_id: 181
-- :id: 1800
-  :name: Flagstaff, Arizona
-  :parent_id: 181
-- :id: 1802
-  :name: Great Falls, Virginia
-  :parent_id: 181
-- :id: 1804
-  :name: Great Falls, Montana
-  :parent_id: 181
-- :id: 1806
-  :name: Killeen, Texas
-  :parent_id: 181
-- :id: 1808
-  :name: Waco, Texas
-  :parent_id: 181
-- :id: 1810
-  :name: Conroe, Texas
-  :parent_id: 181
-- :id: 1812
-  :name: Beaumont, Texas
-  :parent_id: 181
-- :id: 1814
-  :name: Galveston, Texas
-  :parent_id: 181
-- :id: 1816
-  :name: College Station, Texas
-  :parent_id: 181
-- :id: 1818
-  :name: Palmdale and Lancaster, California
-  :parent_id: 181
-- :id: 1820
-  :name: Bakersfield, California
-  :parent_id: 181
-- :id: 1824
-  :name: Santa Rosa, California
-  :parent_id: 181
-- :id: 1826
-  :name: Redding, California
-  :parent_id: 181
-- :id: 1828
-  :name: Gresham, Washington
-  :parent_id: 181
-- :id: 1830
-  :name: Bellevue, Washington
-  :parent_id: 181
-- :id: 1832
-  :name: Everett, Washington
-  :parent_id: 181
-- :id: 1834
-  :name: Renton, Washington
-  :parent_id: 181
 - :id: 1836
   :name: Surat Thani
   :parent_id: 171
-- :id: 1838
-  :name: Mobile, Alabama
-  :parent_id: 181
-- :id: 1842
-  :name: Augusta, Georgia
-  :parent_id: 181
-- :id: 1844
-  :name: Westchester, New York
-  :parent_id: 181
-- :id: 1846
-  :name: Sarasota, Florida
-  :parent_id: 181
-- :id: 1848
-  :name: Poconos, Pennsylvania
-  :parent_id: 181
-- :id: 1850
-  :name: Fort Collins, Colorado
-  :parent_id: 181
-- :id: 1852
-  :name: San Fernando Valley, California
-  :parent_id: 181
-- :id: 1854
-  :name: San Luis Obispo, California
-  :parent_id: 181
-- :id: 1856
-  :name: Amarillo, Texas
-  :parent_id: 181
-- :id: 1858
-  :name: Lubbock, Texas
-  :parent_id: 181
-- :id: 1860
-  :name: McAllen, Texas
-  :parent_id: 181
-- :id: 1862
-  :name: Ventura, California
-  :parent_id: 181
-- :id: 1864
-  :name: Show Low, Arizona
-  :parent_id: 181
-- :id: 1866
-  :name: Sierra Vista, Arizona
-  :parent_id: 181
-- :id: 1868
-  :name: Prescott, Arizona
-  :parent_id: 181
-- :id: 1870
-  :name: Mohave, Arizona
-  :parent_id: 181
-- :id: 1872
-  :name: Yuma, Arizona
-  :parent_id: 181
 - :id: 1874
   :name: Yellowknife
   :parent_id: 33
 - :id: 1876
   :name: Johor Bahru
   :parent_id: 109
-- :id: 1878
-  :name: Statesboro, Georgia
-  :parent_id: 181
 - :id: 1880
   :name: Chihuahua
   :parent_id: 115
-- :id: 1882
-  :name: West Palm Beach, Florida
-  :parent_id: 181
-- :id: 1884
-  :name: Topeka, Kansas
-  :parent_id: 181
-- :id: 1886
-  :name: Dubuque, Iowa
-  :parent_id: 181
-- :id: 1888
-  :name: Wichita Falls, Texas
-  :parent_id: 181
-- :id: 1890
-  :name: Winston-Salem, North Carolina
-  :parent_id: 181
-- :id: 1892
-  :name: Las Cruces, New Mexico
-  :parent_id: 181
-- :id: 1894
-  :name: Farmington, New Mexico
-  :parent_id: 181
-- :id: 1896
-  :name: Clovis, New Mexico
-  :parent_id: 181
-- :id: 1898
-  :name: Roswell, New Mexico
-  :parent_id: 181
-- :id: 1900
-  :name: Santa Fe, New Mexico
-  :parent_id: 181
-- :id: 1902
-  :name: Providence, Rhode Island
-  :parent_id: 181
 - :id: 1904
   :name: Abbotsford
   :parent_id: 33
-- :id: 1906
-  :name: Abilene, Texas
-  :parent_id: 181
-- :id: 1908
-  :name: Albany, Georgia
-  :parent_id: 181
-- :id: 1910
-  :name: Ann Arbor, Michigan
-  :parent_id: 181
-- :id: 1912
-  :name: Asheville, North Carolina
-  :parent_id: 181
-- :id: 1914
-  :name: Athens, Georgia
-  :parent_id: 181
-- :id: 1916
-  :name: Athens, Ohio
-  :parent_id: 181
-- :id: 1918
-  :name: San Mateo, California
-  :parent_id: 181
 - :id: 1920
   :name: Sarnia
   :parent_id: 33
@@ -5183,372 +4574,96 @@
 - :id: 1924
   :name: Sault Ste. Marie
   :parent_id: 33
-- :id: 1926
-  :name: Sheboygan, Wisconsin
-  :parent_id: 181
 - :id: 1928
   :name: Sherbrooke
   :parent_id: 33
-- :id: 1930
-  :name: Muscle Shoals, Alabama
-  :parent_id: 181
-- :id: 1932
-  :name: Shreveport, Louisiana
-  :parent_id: 181
-- :id: 1934
-  :name: Sioux Falls, South Dakota
-  :parent_id: 181
-- :id: 1936
-  :name: Siskiyou County, California
-  :parent_id: 181
 - :id: 1938
   :name: Skeena-Bulkley Valley
   :parent_id: 33
-- :id: 1940
-  :name: South Bend, Indiana
-  :parent_id: 181
-- :id: 1942
-  :name: Springfield, Illinois
-  :parent_id: 181
-- :id: 1944
-  :name: St. Cloud, Minnesota
-  :parent_id: 181
-- :id: 1946
-  :name: St. George, Utah
-  :parent_id: 181
-- :id: 1948
-  :name: Stillwater, Minnesota
-  :parent_id: 181
 - :id: 1950
   :name: Suwon
   :parent_id: 159
-- :id: 1952
-  :name: Terre Haute, Indiana
-  :parent_id: 181
-- :id: 1954
-  :name: Tippecanoe County, Indiana
-  :parent_id: 181
-- :id: 1956
-  :name: Tri-Cities, Washington
-  :parent_id: 181
 - :id: 1958
   :name: Trois-Rivières
   :parent_id: 33
-- :id: 1960
-  :name: Tuscaloosa, Alabama
-  :parent_id: 181
-- :id: 1962
-  :name: Victoria, Texas
-  :parent_id: 181
 - :id: 1964
   :name: Victoria
   :parent_id: 33
-- :id: 1966
-  :name: Wausau, Wisconsin
-  :parent_id: 181
-- :id: 1968
-  :name: Wheeling, West Virginia
-  :parent_id: 181
 - :id: 1970
   :name: Whistler
   :parent_id: 33
 - :id: 1972
   :name: Whitehorse
   :parent_id: 33
-- :id: 1974
-  :name: Williamsport, Pennsylvania
-  :parent_id: 181
 - :id: 1976
   :name: Yucatán
   :parent_id: 115
-- :id: 1978
-  :name: Zanesville, Ohio
-  :parent_id: 181
-- :id: 1980
-  :name: Salina, Kansas
-  :parent_id: 181
 - :id: 1982
   :name: Saguenay
   :parent_id: 33
-- :id: 1984
-  :name: Saginaw, Michigan
-  :parent_id: 181
-- :id: 1986
-  :name: Roseburg, Oregon
-  :parent_id: 181
-- :id: 1988
-  :name: Rockford, Illinois
-  :parent_id: 181
-- :id: 1990
-  :name: Roanoke, Virginia
-  :parent_id: 181
 - :id: 1992
   :name: Rishon LeZion
   :parent_id: 86
-- :id: 1994
-  :name: Pueblo, Colorado
-  :parent_id: 181
 - :id: 1996
   :name: Puebla
   :parent_id: 115
-- :id: 1998
-  :name: Provo, Utah
-  :parent_id: 181
 - :id: 2000
   :name: Prince George
   :parent_id: 33
-- :id: 2002
-  :name: Port Huron, Michigan
-  :parent_id: 181
-- :id: 2004
-  :name: Pierre, South Dakota
-  :parent_id: 181
-- :id: 2006
-  :name: Pensacola, Florida
-  :parent_id: 181
 - :id: 2008
   :name: 'Pampanga '
   :parent_id: 140
 - :id: 2010
   :name: Owen Sound
   :parent_id: 33
-- :id: 2012
-  :name: Alpharetta, Georgia
-  :parent_id: 181
-- :id: 2014
-  :name: Altoona, Pennsylvania
-  :parent_id: 181
-- :id: 2016
-  :name: Ames, Iowa
-  :parent_id: 181
-- :id: 2018
-  :name: Annapolis, Maryland
-  :parent_id: 181
-- :id: 2020
-  :name: Appleton, Wisconsin
-  :parent_id: 181
-- :id: 2022
-  :name: Auburn, Alabama
-  :parent_id: 181
 - :id: 2024
   :name: Barrie
   :parent_id: 33
-- :id: 2026
-  :name: Battle Creek, Michigan
-  :parent_id: 181
-- :id: 2028
-  :name: Bellingham, Washington
-  :parent_id: 181
 - :id: 2030
   :name: Belo Horizonte
   :parent_id: 25
-- :id: 2032
-  :name: Bemidji, Minnesota
-  :parent_id: 181
-- :id: 2034
-  :name: Bend, Oregon
-  :parent_id: 181
 - :id: 2036
   :name: Bhubaneshwar
   :parent_id: 81
-- :id: 2038
-  :name: Big Island, Hawaii
-  :parent_id: 181
-- :id: 2040
-  :name: Kauai, Hawaii
-  :parent_id: 181
-- :id: 2042
-  :name: Billings, Montana
-  :parent_id: 181
-- :id: 2044
-  :name: Biloxi, Mississippi
-  :parent_id: 181
-- :id: 2046
-  :name: Binghamton, New York
-  :parent_id: 181
-- :id: 2048
-  :name: Bismarck, North Dakota
-  :parent_id: 181
-- :id: 2050
-  :name: Blacksburg, Virginia
-  :parent_id: 181
-- :id: 2052
-  :name: Charlottesville, Virginia
-  :parent_id: 181
-- :id: 2054
-  :name: Danville, Virginia
-  :parent_id: 181
-- :id: 2056
-  :name: Fredericksburg, Virginia
-  :parent_id: 181
-- :id: 2058
-  :name: Bloomington, Indiana
-  :parent_id: 181
 - :id: 2060
   :name: Lake Constance (Bodensee)
   :parent_id: 65
-- :id: 2062
-  :name: Boise, Idaho
-  :parent_id: 181
-- :id: 2064
-  :name: Boone, North Carolina
-  :parent_id: 181
-- :id: 2066
-  :name: Bowling Green, Kentucky
-  :parent_id: 181
-- :id: 2068
-  :name: Bozeman, Montana
-  :parent_id: 181
-- :id: 2070
-  :name: Brainerd, Minnesota
-  :parent_id: 181
 - :id: 2072
   :name: Brantford
   :parent_id: 33
-- :id: 2074
-  :name: Brownsville, Texas
-  :parent_id: 181
-- :id: 2076
-  :name: Brunswick, Georgia
-  :parent_id: 181
-- :id: 2078
-  :name: Burlington, Vermont
-  :parent_id: 181
-- :id: 2080
-  :name: Butte, Montana
-  :parent_id: 181
 - :id: 2082
   :name: Cairns
   :parent_id: 9
-- :id: 2084
-  :name: Cape Cod, Massachusetts
-  :parent_id: 181
 - :id: 2086
   :name: Cariboo
   :parent_id: 33
-- :id: 2088
-  :name: Catskill Mountains, New York
-  :parent_id: 181
-- :id: 2090
-  :name: Cedar Rapids, Iowa
-  :parent_id: 181
-- :id: 2092
-  :name: Chambersburg, Pennsylvania
-  :parent_id: 181
 - :id: 2094
   :name: Chandigarh
   :parent_id: 81
-- :id: 2096
-  :name: Chautauqua, New York
-  :parent_id: 181
-- :id: 2098
-  :name: Chico, California
-  :parent_id: 181
-- :id: 2100
-  :name: Chillicothe, Ohio
-  :parent_id: 181
 - :id: 2102
   :name: Ciudad Juarez
   :parent_id: 115
-- :id: 2104
-  :name: Columbia, Missouri
-  :parent_id: 181
-- :id: 2106
-  :name: Columbus, Georgia
-  :parent_id: 181
-- :id: 2108
-  :name: Cookeville, Tennessee
-  :parent_id: 181
 - :id: 2110
   :name: Cornwall
   :parent_id: 33
-- :id: 2114
-  :name: Corpus Christi, Texas
-  :parent_id: 181
 - :id: 2116
   :name: Corsica
   :parent_id: 61
-- :id: 2118
-  :name: Corvallis, Oregon
-  :parent_id: 181
 - :id: 2120
   :name: Cranbrook
   :parent_id: 33
 - :id: 2122
   :name: Cumberland Valley
   :parent_id: 181
-- :id: 2124
-  :name: Decatur, Georgia
-  :parent_id: 181
-- :id: 2126
-  :name: Del Rio, Texas
-  :parent_id: 181
-- :id: 2128
-  :name: Denton, Texas
-  :parent_id: 181
 - :id: 2130
   :name: Devon
   :parent_id: 180
-- :id: 2132
-  :name: Duluth, Minnesota
-  :parent_id: 181
-- :id: 2134
-  :name: Eau Claire, Wisconsin
-  :parent_id: 181
-- :id: 2136
-  :name: Elko, Nevada
-  :parent_id: 181
-- :id: 2138
-  :name: Elmira, New York
-  :parent_id: 181
-- :id: 2140
-  :name: Eugene, Oregon
-  :parent_id: 181
-- :id: 2142
-  :name: Fairfield, Connecticut
-  :parent_id: 181
-- :id: 2144
-  :name: Fargo, North Dakota
-  :parent_id: 181
 - :id: 2146
   :name: Faro
   :parent_id: 142
-- :id: 2148
-  :name: Finger Lakes, New York
-  :parent_id: 181
-- :id: 2150
-  :name: Flint, Michigan
-  :parent_id: 181
 - :id: 2152
   :name: Forlì
   :parent_id: 87
-- :id: 2154
-  :name: Fort Dodge, Iowa
-  :parent_id: 181
-- :id: 2156
-  :name: Fort Wayne, Indiana
-  :parent_id: 181
-- :id: 2158
-  :name: Gadsden, Alabama
-  :parent_id: 181
-- :id: 2160
-  :name: Gainesville, Florida
-  :parent_id: 181
-- :id: 2162
-  :name: Glens Falls, New York
-  :parent_id: 181
-- :id: 2164
-  :name: Grand Forks, North Dakota
-  :parent_id: 181
-- :id: 2166
-  :name: Grand Island, Nebraska
-  :parent_id: 181
-- :id: 2168
-  :name: Green Bay, Wisconsin
-  :parent_id: 181
-- :id: 2170
-  :name: Greensboro, North Carolina
-  :parent_id: 181
 - :id: 2172
   :name: Guanajuato
   :parent_id: 115
@@ -5558,339 +4673,66 @@
 - :id: 2176
   :name: Winchester
   :parent_id: 180
-- :id: 2178
-  :name: Harrisonburg, Virginia
-  :parent_id: 181
-- :id: 2180
-  :name: Hattiesburg, Mississippi
-  :parent_id: 181
-- :id: 2182
-  :name: Helena, Montana
-  :parent_id: 181
-- :id: 2184
-  :name: Hickory, North Carolina
-  :parent_id: 181
-- :id: 2186
-  :name: Holland, Michigan
-  :parent_id: 181
-- :id: 2188
-  :name: Houma, Louisiana
-  :parent_id: 181
-- :id: 2190
-  :name: Troy, New York
-  :parent_id: 181
-- :id: 2192
-  :name: Humboldt County, California
-  :parent_id: 181
-- :id: 2194
-  :name: Huntington, Ohio
-  :parent_id: 181
-- :id: 2196
-  :name: Huntsville, Texas
-  :parent_id: 181
-- :id: 2198
-  :name: Riverside, California
-  :parent_id: 181
-- :id: 2200
-  :name: San Bernardino, California
-  :parent_id: 181
 - :id: 2202
   :name: Iowa City
   :parent_id: 181
 - :id: 2204
   :name: Ipoh
   :parent_id: 109
-- :id: 2206
-  :name: Ithaca, New York
-  :parent_id: 181
-- :id: 2208
-  :name: Jackson, Michigan
-  :parent_id: 181
-- :id: 2210
-  :name: Janesville, Wisconsin
-  :parent_id: 181
-- :id: 2212
-  :name: Jonesboro, Arkansas
-  :parent_id: 181
-- :id: 2214
-  :name: Kalispell, Montana
-  :parent_id: 181
 - :id: 2216
   :name: Kamloops
   :parent_id: 33
 - :id: 2218
   :name: Florida Keys
   :parent_id: 181
-- :id: 2220
-  :name: Klamath Falls, Oregon
-  :parent_id: 181
-- :id: 2222
-  :name: Kokomo, Indiana
-  :parent_id: 181
 - :id: 2224
   :name: Kuching
   :parent_id: 109
-- :id: 2226
-  :name: La Crosse, Wisconsin
-  :parent_id: 181
-- :id: 2228
-  :name: Lakeland, Florida
-  :parent_id: 181
-- :id: 2230
-  :name: Lancaster, Pennsylvania
-  :parent_id: 181
-- :id: 2232
-  :name: Lansing, Michigan
-  :parent_id: 181
-- :id: 2234
-  :name: Laredo, Texas
-  :parent_id: 181
 - :id: 2236
   :name: Lausanne
   :parent_id: 166
-- :id: 2238
-  :name: Lawrence, Kansas
-  :parent_id: 181
-- :id: 2240
-  :name: Lawton, Oklahoma
-  :parent_id: 181
-- :id: 2244
-  :name: Lewiston, Idaho
-  :parent_id: 181
-- :id: 2246
-  :name: Lima, Ohio
-  :parent_id: 181
-- :id: 2248
-  :name: Logan, Utah
-  :parent_id: 181
-- :id: 2250
-  :name: Long Beach, California
-  :parent_id: 181
-- :id: 2252
-  :name: Long Island, New York
-  :parent_id: 181
-- :id: 2254
-  :name: Lake of the Ozarks, Missouri
-  :parent_id: 181
-- :id: 2256
-  :name: Lynchburg, Virginia
-  :parent_id: 181
-- :id: 2258
-  :name: Madison, Wisconsin
-  :parent_id: 181
 - :id: 2260
   :name: Makassar
   :parent_id: 82
-- :id: 2262
-  :name: Manhattan, Kansas
-  :parent_id: 181
-- :id: 2264
-  :name: Mankato, Minnesota
-  :parent_id: 181
-- :id: 2266
-  :name: Mattoon, Illinois
-  :parent_id: 181
-- :id: 2268
-  :name: Meadville, Pennsylvania
-  :parent_id: 181
 - :id: 2270
   :name: Hidalgo
   :parent_id: 115
-- :id: 2272
-  :name: Medford, Oregon
-  :parent_id: 181
 - :id: 2274
   :name: Medicine Hat
   :parent_id: 33
-- :id: 2276
-  :name: Mendocino, California
-  :parent_id: 181
-- :id: 2278
-  :name: Meridian, Mississippi
-  :parent_id: 181
-- :id: 2280
-  :name: Minot, North Dakota
-  :parent_id: 181
-- :id: 2282
-  :name: Monroe, Louisiana
-  :parent_id: 181
-- :id: 2284
-  :name: Monroe, Michigan
-  :parent_id: 181
-- :id: 2286
-  :name: Montgomery, Alabama
-  :parent_id: 181
 - :id: 2288
   :name: Montt
   :parent_id: 38
-- :id: 2290
-  :name: Moses Lake, Washington
-  :parent_id: 181
-- :id: 2292
-  :name: Mount Vernon, Washington
-  :parent_id: 181
-- :id: 2294
-  :name: Muncie, Indiana
-  :parent_id: 181
-- :id: 2296
-  :name: Muskegon, Michigan
-  :parent_id: 181
 - :id: 2298
   :name: Nanaimo
   :parent_id: 33
-- :id: 2300
-  :name: New Haven, Connecticut
-  :parent_id: 181
-- :id: 2302
-  :name: New London, Connecticut
-  :parent_id: 181
-- :id: 2304
-  :name: North Platte, Nebraska
-  :parent_id: 181
 - :id: 2306
   :name: Oaxaca de Juárez
   :parent_id: 115
-- :id: 2308
-  :name: Ocala, Florida
-  :parent_id: 181
-- :id: 2310
-  :name: Ogden, Utah
-  :parent_id: 181
-- :id: 2312
-  :name: Olympia, Washington
-  :parent_id: 181
-- :id: 2314
-  :name: Oneonta, New York
-  :parent_id: 181
-- :id: 2316
-  :name: Outer Banks, North Carolina
-  :parent_id: 181
-- :id: 2318
-  :name: Owensboro, Kentucky
-  :parent_id: 181
-- :id: 2320
-  :name: Parkersburg, West Virginia
-  :parent_id: 181
-- :id: 2322
-  :name: Plattsburgh, New York
-  :parent_id: 181
-- :id: 2324
-  :name: Pullman, Washington
-  :parent_id: 181
-- :id: 2326
-  :name: Quincy, Illinois
-  :parent_id: 181
-- :id: 2328
-  :name: Racine, Wisconsin
-  :parent_id: 181
-- :id: 2330
-  :name: Richmond, Indiana
-  :parent_id: 181
-- :id: 2332
-  :name: Rochester, Minnesota
-  :parent_id: 181
 - :id: 2334
   :name: Saarbrücken
   :parent_id: 65
-- :id: 2336
-  :name: Salem, Oregon
-  :parent_id: 181
 - :id: 2338
   :name: San Luis Potosi
   :parent_id: 115
-- :id: 2340
-  :name: Santa Barbara, California
-  :parent_id: 181
-- :id: 2342
-  :name: Santa Maria, California
-  :parent_id: 181
-- :id: 2344
-  :name: Scottsbluff, Nebraska
-  :parent_id: 181
-- :id: 2346
-  :name: Sioux City, Iowa
-  :parent_id: 181
-- :id: 2348
-  :name: St. Augustine, Florida
-  :parent_id: 181
-- :id: 2350
-  :name: St. Joseph, Missouri
-  :parent_id: 181
 - :id: 2352
   :name: Sudbury
   :parent_id: 33
-- :id: 2354
-  :name: Susanville, California
-  :parent_id: 181
-- :id: 2356
-  :name: Texarkana, Texas
-  :parent_id: 181
-- :id: 2358
-  :name: New Philadelphia, Ohio
-  :parent_id: 181
-- :id: 2360
-  :name: Twin Falls, Idaho
-  :parent_id: 181
-- :id: 2362
-  :name: Tyler, Texas
-  :parent_id: 181
-- :id: 2364
-  :name: Valdosta, Georgia
-  :parent_id: 181
-- :id: 2366
-  :name: Visalia, California
-  :parent_id: 181
-- :id: 2368
-  :name: Watertown, New York
-  :parent_id: 181
-- :id: 2370
-  :name: Wenatchee, Washington
-  :parent_id: 181
-- :id: 2372
-  :name: Aberdeen, South Dakota
-  :parent_id: 181
 - :id: 2374
   :name: Belleville
   :parent_id: 33
-- :id: 2376
-  :name: Clarksville, Tennessee
-  :parent_id: 181
-- :id: 2378
-  :name: Fort Smith, Arkansas
-  :parent_id: 181
 - :id: 2380
   :name: Ibiza
   :parent_id: 160
-- :id: 2382
-  :name: Kirksville, Missouri
-  :parent_id: 181
 - :id: 2384
   :name: Lethbridge
   :parent_id: 33
-- :id: 2386
-  :name: Martinsburg, West Virginia
-  :parent_id: 181
-- :id: 2388
-  :name: Missoula, Montana
-  :parent_id: 181
-- :id: 2390
-  :name: Natchez, Mississippi
-  :parent_id: 181
-- :id: 2392
-  :name: Ottumwa, Iowa
-  :parent_id: 181
-- :id: 2394
-  :name: Sandusky, Ohio
-  :parent_id: 181
 - :id: 2396
   :name: Mangalore
   :parent_id: 81
 - :id: 2398
   :name: Kasaragod
   :parent_id: 81
-- :id: 2400
-  :name: Ashtabula, Ohio
-  :parent_id: 181
 - :id: 2402
   :name: Comox Valley
   :parent_id: 33
@@ -5906,74 +4748,20 @@
 - :id: 2410
   :name: Wichita
   :parent_id: 181
-- :id: 2412
-  :name: Jackson, Mississippi
-  :parent_id: 181
-- :id: 2414
-  :name: Washington, North Carolina
-  :parent_id: 181
 - :id: 2418
   :name: Grande Prairie
   :parent_id: 33
 - :id: 2420
   :name: Whitefish
   :parent_id: 181
-- :id: 2422
-  :name: Columbia Falls, Montana
-  :parent_id: 181
 - :id: 2424
   :name: Vallejo
-  :parent_id: 181
-- :id: 2426
-  :name: 'Lafayette, Indiana '
-  :parent_id: 181
-- :id: 2428
-  :name: Indianola, Mississippi
-  :parent_id: 181
-- :id: 2430
-  :name: Rocky Mount, North Carolina
-  :parent_id: 181
-- :id: 2432
-  :name: Longview, Texas
-  :parent_id: 181
-- :id: 2434
-  :name: 'Port St. Lucie, Florida '
-  :parent_id: 181
-- :id: 2436
-  :name: Toms River, New Jersey
-  :parent_id: 181
-- :id: 2438
-  :name: 'Atlantic City, New Jersey '
   :parent_id: 181
 - :id: 2440
   :name: Corte
   :parent_id: 61
-- :id: 2442
-  :name: 'Port Richey, Florida '
-  :parent_id: 181
-- :id: 2444
-  :name: Cheyenne, Wyoming
-  :parent_id: 181
-- :id: 2446
-  :name: Casper, Wyoming
-  :parent_id: 181
-- :id: 2448
-  :name: Laramie, Wyoming
-  :parent_id: 181
-- :id: 2450
-  :name: Gillette, Wyoming
-  :parent_id: 181
-- :id: 2452
-  :name: Rock Springs, Wyoming
-  :parent_id: 181
-- :id: 2454
-  :name: Sheridan, Wyoming
-  :parent_id: 181
 - :id: 2456
   :name: Idaho Falls
-  :parent_id: 181
-- :id: 2458
-  :name: Nampa, Idaho
   :parent_id: 181
 - :id: 2460
   :name: Padova
@@ -5981,128 +4769,41 @@
 - :id: 2462
   :name: Maspalomas
   :parent_id: 160
-- :id: 2464
-  :name: Boca Raton, Florida
-  :parent_id: 181
-- :id: 2466
-  :name: Carbondale, Illinois
-  :parent_id: 181
-- :id: 2470
-  :name: Kenosha, Wisconsin
-  :parent_id: 181
 - :id: 2472
   :name: Longueuil
   :parent_id: 33
 - :id: 2474
   :name: Newfoundland
   :parent_id: 33
-- :id: 2476
-  :name: Peoria, Illinois
-  :parent_id: 181
 - :id: 2478
   :name: Thunder Bay
   :parent_id: 33
-- :id: 2480
-  :name: Lake Jackson, Texas
-  :parent_id: 181
-- :id: 2482
-  :name: Fayetteville, Arizona
-  :parent_id: 181
-- :id: 2484
-  :name: Springfield, Massachusetts
-  :parent_id: 181
-- :id: 2486
-  :name: Florence, South Carolina
-  :parent_id: 181
-- :id: 2488
-  :name: Midland, Texas
-  :parent_id: 181
-- :id: 2490
-  :name: Belvidere, Illinois
-  :parent_id: 181
-- :id: 2492
-  :name: Elgin, Illinois
-  :parent_id: 181
 - :id: 2494
   :name: Gardena
   :parent_id: 181
 - :id: 2496
   :name: New Brunswick
   :parent_id: 181
-- :id: 2498
-  :name: Manning, South Carolina
-  :parent_id: 181
-- :id: 2500
-  :name: Newmarket, Suffolk
-  :parent_id: 180
-- :id: 2502
-  :name: Lansdowne, PA
-  :parent_id: 181
-- :id: 2504
-  :name: Margate, Florida
-  :parent_id: 181
-- :id: 2506
-  :name: Rochester, New Hampshire
-  :parent_id: 181
-- :id: 2508
-  :name: Malden, Massachusetts
-  :parent_id: 181
 - :id: 2510
   :name: Shah Alam
   :parent_id: 109
-- :id: 2512
-  :name: Indio, California
-  :parent_id: 181
-- :id: 2514
-  :name: Austell, Georgia
-  :parent_id: 181
-- :id: 2516
-  :name: Escondido, California
-  :parent_id: 181
-- :id: 2518
-  :name: Moline, Illinois
-  :parent_id: 181
 - :id: 2520
   :name: 'Quezon '
   :parent_id: 140
 - :id: 2522
   :name: Évian-les-Bains
   :parent_id: 61
-- :id: 2524
-  :name: Emeryville, California
-  :parent_id: 181
 - :id: 2526
   :name: Avignon
   :parent_id: 61
-- :id: 2528
-  :name: Elmsford, New Yourk
-  :parent_id: 181
-- :id: 2530
-  :name: 'York, Pennsylvania '
-  :parent_id: 181
-- :id: 2532
-  :name: Decatur, Illinois
-  :parent_id: 181
 - :id: 2534
   :name: Fontainebleau
   :parent_id: 61
-- :id: 2536
-  :name: Melbourne, Florida
-  :parent_id: 181
-- :id: 2538
-  :name: Tracy, California
-  :parent_id: 181
-- :id: 2540
-  :name: Sylmar, California
-  :parent_id: 181
 - :id: 2542
   :name: Manilva
   :parent_id: 160
 - :id: 2544
   :name: 'Estepona  '
-  :parent_id: 160
-- :id: 2546
-  :name: Sotogrande, Marbella, Malaga
   :parent_id: 160
 - :id: 2548
   :name: Bandar Seri Begawan
@@ -6119,9 +4820,6 @@
 - :id: 2556
   :name: Muara
   :parent_id: 27
-- :id: 2558
-  :name: Bangar, Temburong
-  :parent_id: 27
 - :id: 2560
   :name: Coquitilam
   :parent_id: 33
@@ -6133,15 +4831,6 @@
   :parent_id: 39
 - :id: 2566
   :name: Anaheim
-  :parent_id: 181
-- :id: 2568
-  :name: Bellaire, Texas
-  :parent_id: 181
-- :id: 2570
-  :name: Fountain Hills, Arizona
-  :parent_id: 181
-- :id: 2572
-  :name: Hagerstown, Maryland
   :parent_id: 181
 - :id: 2574
   :name: Tullamore
@@ -6158,9 +4847,6 @@
 - :id: 2582
   :name: Troyes
   :parent_id: 61
-- :id: 2584
-  :name: Bedford, New York
-  :parent_id: 181
 - :id: 2586
   :name: 'Knokke '
   :parent_id: 17
@@ -6173,45 +4859,18 @@
 - :id: 2592
   :name: Figueres
   :parent_id: 160
-- :id: 2594
-  :name: 'Shakopee, Minnesota '
-  :parent_id: 181
-- :id: 2596
-  :name: Osceola, Indiana
-  :parent_id: 181
-- :id: 2598
-  :name: Panama City, Florida
-  :parent_id: 181
-- :id: 2600
-  :name: Brest, Bretagne
-  :parent_id: 61
 - :id: 2602
   :name: Alençon
   :parent_id: 61
-- :id: 2604
-  :name: Parsippany- Troy Hills, New Jersey
-  :parent_id: 181
 - :id: 2606
   :name: New Delhi
   :parent_id: 81
 - :id: 2608
   :name: 'Dubrovnik '
   :parent_id: 45
-- :id: 2610
-  :name: Wayne, New Jersey
-  :parent_id: 181
 - :id: 2612
   :name: Le Mans
   :parent_id: 61
-- :id: 2614
-  :name: Fort Lee, New Jersey
-  :parent_id: 181
-- :id: 2616
-  :name: Ramsey, New Jersey
-  :parent_id: 181
-- :id: 2618
-  :name: Clarkstown, New York
-  :parent_id: 181
 - :id: 2620
   :name: Kitengela
   :parent_id: 93
@@ -6242,78 +4901,21 @@
 - :id: 2638
   :name: Oviedo
   :parent_id: 160
-- :id: 2640
-  :name: Mason City, Iowa
-  :parent_id: 181
 - :id: 2642
   :name: Kota Kinabalu
   :parent_id: 109
 - :id: 2644
   :name: Košice
   :parent_id: 155
-- :id: 2646
-  :name: Seward, Alaska
-  :parent_id: 181
 - :id: 2648
   :name: Manta
   :parent_id: 51
-- :id: 2650
-  :name: Mission, British Columbia
-  :parent_id: 33
-- :id: 2652
-  :name: Kannapolis, North Carolina
-  :parent_id: 181
-- :id: 2654
-  :name: Fredericton, New Brunswick
-  :parent_id: 33
-- :id: 2656
-  :name: Avondale, Arizona
-  :parent_id: 181
-- :id: 2658
-  :name: Cypress, California
-  :parent_id: 181
-- :id: 2660
-  :name: Moncton, New Brunswick
-  :parent_id: 33
-- :id: 2662
-  :name: Ridgecrest, California
-  :parent_id: 181
-- :id: 2664
-  :name: Norcross, Georgia
-  :parent_id: 181
-- :id: 2666
-  :name: Groton, Connecticut
-  :parent_id: 181
-- :id: 2668
-  :name: Windsor, Berkshire
-  :parent_id: 180
-- :id: 2670
-  :name: Rome, Georgia
-  :parent_id: 181
-- :id: 2672
-  :name: Candolim, Goa
-  :parent_id: 81
-- :id: 2674
-  :name: Mountain View, CA
-  :parent_id: 181
 - :id: 2675
   :name: Vassa
   :parent_id: 60
-- :id: 2676
-  :name: Brentwood, Essex
-  :parent_id: 180
-- :id: 2677
-  :name: Saint Paul, Minnesota
-  :parent_id: 181
-- :id: 2678
-  :name: Berkeley, California
-  :parent_id: 181
 - :id: 2679
   :name: Rustenburg
   :parent_id: 158
-- :id: 2680
-  :name: Wesley Chapel, Florida
-  :parent_id: 181
 - :id: 2681
   :name: Puchong
   :parent_id: 109
@@ -6323,12 +4925,6 @@
 - :id: 2683
   :name: 'Playa del Carmen '
   :parent_id: 115
-- :id: 2684
-  :name: Pleasanton, California
-  :parent_id: 181
-- :id: 2685
-  :name: 'Madera, California '
-  :parent_id: 181
 - :id: 2686
   :name: 'Asansol '
   :parent_id: 81
@@ -6356,9 +4952,6 @@
 - :id: 2694
   :name: Aarau
   :parent_id: 166
-- :id: 2695
-  :name: Amersham, Buckinghamshire
-  :parent_id: 180
 - :id: 2696
   :name: Falköping
   :parent_id: 165
@@ -6404,9 +4997,6 @@
 - :id: 2710
   :name: Aigle
   :parent_id: 166
-- :id: 2711
-  :name: Salem, Virginia
-  :parent_id: 181
 - :id: 2712
   :name: 'Trento '
   :parent_id: 87
@@ -6425,21 +5015,12 @@
 - :id: 2717
   :name: Rodez
   :parent_id: 61
-- :id: 2718
-  :name: Worcester, Massachusetts
-  :parent_id: 181
-- :id: 2719
-  :name: Dehradun, Uttarakhand
-  :parent_id: 81
 - :id: 2720
   :name: Gaborone
   :parent_id: 24
 - :id: 2721
   :name: 'St. Catharines '
   :parent_id: 33
-- :id: 2722
-  :name: DeKalb, Illinois
-  :parent_id: 181
 - :id: 2724
   :name: Isle of Man
   :parent_id: 180
@@ -6467,27 +5048,15 @@
 - :id: 2732
   :name: Chur
   :parent_id: 166
-- :id: 2733
-  :name: Vicksburg, Mississippi
-  :parent_id: 181
-- :id: 2734
-  :name: Homosassa, Florida
-  :parent_id: 181
 - :id: 2735
   :name: La Rochelle
   :parent_id: 61
-- :id: 2736
-  :name: Katy, Texas
-  :parent_id: 181
 - :id: 2737
   :name: Falkirk
   :parent_id: 180
 - :id: 2738
   :name: Nakuru
   :parent_id: 93
-- :id: 2739
-  :name: Ontario, California
-  :parent_id: 181
 - :id: 2740
   :name: Matale
   :parent_id: 161
@@ -6509,18 +5078,9 @@
 - :id: 2746
   :name: Comilla
   :parent_id: 14
-- :id: 2747
-  :name: El Centro, California
-  :parent_id: 181
 - :id: 2748
   :name: Preesall
   :parent_id: 180
 - :id: 2749
   :name: Knott-End
   :parent_id: 180
-- :id: 2750
-  :name: Gloucester City,  New Jersey
-  :parent_id: 181
-- :id: 2751
-  :name: Woodbridge, Virginia
-  :parent_id: 181
