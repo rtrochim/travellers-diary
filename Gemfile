@@ -49,6 +49,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Fake data generation
   gem "faker", "~> 2.17"
+  # Testing
+  gem 'rspec-rails', '~> 5.0.0'
+  # Generating test data
+  gem 'fabrication', '~> 2.22'
 end
 
 group :development do

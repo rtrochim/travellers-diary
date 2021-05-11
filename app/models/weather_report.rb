@@ -6,7 +6,7 @@ class WeatherReport < ApplicationRecord
   WEATHER_TYPES = %w[Thunderstorm Drizzle Rain Snow Mist Smoke Haze Dust Fog Sand Ash Squall Tornado Clear Clouds].freeze
 
   def get_data
-    result = WeatherService.new(city: attributes[:city].name).current_weather
+    result = WeatherService.new(city: city.name).current_weather
     self.weather = result[:weather]
     self.temperature = result[:temperature]
     self

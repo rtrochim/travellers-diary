@@ -1,6 +1,6 @@
 class Location < ApplicationRecord
 
-  belongs_to :parent, class_name: 'Location'
+  belongs_to :parent, class_name: 'Location', optional: true
   has_many :covid_reports
   has_many :weather_reports
   has_many :notes
