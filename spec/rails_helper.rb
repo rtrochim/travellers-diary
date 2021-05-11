@@ -6,6 +6,10 @@ require File.expand_path('../config/environment', __dir__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
+require 'support/auth_helper'
+require 'support/webmock_helper'
+
+require 'webmock/rspec'
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
@@ -61,4 +65,28 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+  OmniAuth.config.test_mode = true
+  OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new(
+    {
+                 provider: "google_oauth2",
+                 uid: "123456789",
+                 info: {
+                   name: "Elon Musk",
+                   email: "elon@musk.com",
+                   image: "https://example.com"
+                 },
+                 credentials: {
+                   token: "token",
+                   refresh_token: "refresh token"
+                 }
+               }
+            )
+  config.include Devise::Test::IntegrationHelpers
+  config.include AuthHelper
+  config.include WebmockHelper
+
+
+
+  # Make sure no requests to external API will be made
+  WebMock.disable_net_connect!(allow_localhost: true)
 end

@@ -74,7 +74,12 @@ group :test do
   gem 'webdrivers'
   # Ruby 3.0 no longer includes the rexml gem by default. See: https://github.com/CocoaPods/CocoaPods/issues/10388
   gem 'rexml', '~> 3.2.4'
+  # Additional assertions
+  gem "rails-controller-testing", "~> 1.0"
+  # Mock external API calls
+  gem "webmock", "~> 3.12"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
