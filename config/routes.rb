@@ -9,6 +9,6 @@ Rails.application.routes.draw do
 
   root 'notes#index'
 
-  resources :notes
+  resources :notes, except: [:show]
 
 end

@@ -1,8 +1,8 @@
 class WeatherService
   # Data provided by https://openweathermap.org
 
-  def initialize(params)
-    @city = params[:city]
+  def initialize(attributes)
+    @city = attributes[:city]
   end
 
   def current_weather

@@ -1,0 +1,18 @@
+ruby:
+  covid_data = CovidService.new(country: "Poland").todays_covid_data
+
+nav.navbar.sticky-top
+  .container-fluid
+    = link_to 'Travellers Diary', root_path, class: 'navbar-brand'
+    .d-inline-flex
+      .div Covid in Poland today:
+      .text-danger = "Cases: #{covid_data[:cases]}"
+      .text-dark = "Deaths: #{covid_data[:deaths]}"
+      .text-success = "Recovered: #{covid_data[:recovered]}"
+    .d-inline-flex
+      span
+        = current_user.name
+      .mx-3
+        = image_tag current_user.image, size: 25, class: 'rounded-circle'
+      span
+        = link_to 'Logout', destroy_user_session_path

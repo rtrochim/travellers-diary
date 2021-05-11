@@ -1,0 +1,19 @@
+= render 'shared/navbar'
+
+.container-fluid.d-flex.justify-content-center.pt-5.mt-5
+  .card
+    = form_with model: @note, class: 'form-group' do |f|
+      .card-header.text-center
+        | Edit a note
+      .card-body
+        .mb-3
+          = f.label :city_id, "City", class: 'form-label'
+          = f.select :city_id, Location.city.map { |loc| [loc.name,loc.id] }, {selected: @note.city_id}, {class: 'form-control'}
+        .mb-3
+          = f.label :content, "Text", class: 'form-label'
+          = f.text_area :content, class: 'form-control'
+        .mb-5
+          = f.label :travelled_at, "Date of travel", class: 'form-label'
+          = f.date_field :travelled_at, class: 'form-control'
+        .mb-3.float-end
+          = f.submit "Save"

@@ -1,3 +1,20 @@
+GIT
+  remote: https://github.com/kaminari/kaminari
+  revision: 53f839ba1c644f157c201e62fa94907c3e61cb73
+  specs:
+    kaminari (1.2.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
+      actionview
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
+      activerecord
+      kaminari-core (= 1.2.1)
+    kaminari-core (1.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -282,6 +299,7 @@ DEPENDENCIES
   faker (~> 2.17)
   http (~> 4.4)
   jbuilder (~> 2.7)
+  kaminari!
   listen (~> 3.3)
   mysql2 (~> 0.5.3)
   omniauth-google-oauth2 (~> 1.0)

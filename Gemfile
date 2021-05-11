@@ -23,6 +23,16 @@ gem "slim", "~> 4.1"
 gem "mysql2", "~> 0.5.3"
 # Simple gem for http requests
 gem "http", "~> 4.4"
+# Pagination
+gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
+
+# Authentication
+gem "devise", "~> 4.8"
+
+gem "omniauth-google-oauth2", "~> 1.0"
+
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -62,13 +72,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-
-
-gem "devise", "~> 4.8"
-
-gem "omniauth-google-oauth2", "~> 1.0"
-
-gem "omniauth-rails_csrf_protection", "~> 1.0"
-
-

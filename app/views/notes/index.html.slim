@@ -1,12 +1,50 @@
-= render 'navbar'
+= render 'shared/navbar'
 .container-fluid
-  main.text-center
+  .row.text-center
     section.py-5.text-center.container
       .row.py-lg-5
         .col-lg-6.col-md-8.mx-auto
           h1.fw-light Your notes
-          p.lead.text-muted Est consequatur nobis. Eum aliquam qui. Quae in accusamus. Neque voluptas non.
-           Eaque architecto veniam. Occaecati dolore quasi. Nam atque delenity. Qui aut molestiae. Quos voluptas voluptatem.
-          p
-            a.btn.btn-primary.my-2 href="#" Button 1
-            a.btn.btn-secondary.my-2 href="#" Button 2
+          = link_to 'Add new', new_note_path
+    table.table
+      thead
+        tr
+          th scope="col"
+            | City
+          th scope="col"
+            | Content
+          th scope="col"
+            | Weather
+          th scope="col"
+            | Temp
+          th scope="col"
+            | Cases
+          th scope="col"
+            | Deaths
+          th scope="col"
+            | Recovered
+          th scope="col"
+            | Actions
+      tbody
+      - @notes.each do |note|
+        tr
+          td
+            = note.city.name
+          td
+            = note.content
+          td
+            = note.weather_report.weather
+          td
+            = "#{note.weather_report.temperature} &deg;C".html_safe
+          td
+            = note.covid_report.cases
+          td
+            = note.covid_report.deaths
+          td
+            = note.covid_report.recovered
+          td
+            = link_to 'Edit', edit_note_path(note)
+            '
+            = link_to 'Delete', note_path(note), method: :delete
+  .d-flex.justify-content-center
+    = paginate @notes
