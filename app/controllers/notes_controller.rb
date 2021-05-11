@@ -14,8 +14,11 @@ class NotesController < ApplicationController
     @note = Note.new(params.require(:note).permit(:city_id, :content, :travelled_at).merge!({ user: current_user }))
     @note.set_reports
     @note.save
-    @note.errors.empty? ? flash[:success] = 'Note created' : flash[:error] = @note.errors.full_messages.to_sentence.to_s
-    redirect_to root_path
+    if @note.errors.empty?
+      redirect_to root_path, flash: { success: 'Note created' }
+    else
+      redirect_back fallback_location: root_path, flash: { error: @note.errors.full_messages.to_sentence.to_s }
+    end
   end
 
   def edit
@@ -24,8 +27,11 @@ class NotesController < ApplicationController
 
   def update
     @note.update(params.require(:note).permit(:city, :content, :travelled_at))
-    @note.errors.empty? ? flash[:success] = 'Note updated' : flash[:error] = @note.errors.full_messages.to_sentence.to_s
-    redirect_to root_path
+    if @note.errors.empty?
+      redirect_to root_path, flash: { success: 'Note updated' }
+    else
+      redirect_back fallback_location: root_path, flash: { error: @note.errors.full_messages.to_sentence.to_s }
+    end
   end
 
   def destroy

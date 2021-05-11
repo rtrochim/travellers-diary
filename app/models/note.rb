@@ -4,6 +4,10 @@ class Note < ApplicationRecord
   belongs_to :weather_report, dependent: :destroy
   belongs_to :covid_report
 
+  validates :content, presence: true
+  validates :city_id, presence: true
+  validates :travelled_at, presence: true
+
   after_destroy :destroy_orphan
 
   def set_reports

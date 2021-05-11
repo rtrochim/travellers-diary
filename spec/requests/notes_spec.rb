@@ -38,11 +38,18 @@ RSpec.describe "Notes", type: :request do
         mock_sign_in
       end
 
-      it "should create a new note" do
+      it "should create a new note given valid data" do
         before = Note.count
         post notes_path, params: { note: { city_id: Fabricate(:city).id, content: "Test content", travelled_at: Date.today}}
         after = Note.count
         expect(before).to_not equal after
+      end
+
+      it "should NOT create a new note given invalid data" do
+        before = Note.count
+        post notes_path, params: { note: { city_id: Fabricate(:city).id, content: "", travelled_at: Date.today}}
+        after = Note.count
+        expect(before).to equal after
       end
 
     end
@@ -118,11 +125,18 @@ RSpec.describe "Notes", type: :request do
         mock_sign_in
       end
 
-      it "should update a note" do
+      it "should update a note given valid data" do
         note = Fabricate(:note, user: @user, content: "Text before")
         patch note_path(note), params: {note: { content: "Text after"}}
         expect(note.reload.content).to eq "Text after"
       end
+
+      it "should NOT update a note given invalid data" do
+        note = Fabricate(:note, user: @user, content: "Text before")
+        patch note_path(note), params: {note: { content: ""}}
+        expect(note.reload.content).to eq "Text before"
+      end
+
 
     end
 
