@@ -2,54 +2,52 @@
 .container-fluid
   .row.text-center
     section.py-5.text-center.container
-      .row.py-lg-5
-        .col-lg-6.col-md-8.mx-auto
-    .card
-      .card-header
-        .float-start
-          h3.fw-light Travel notes
-        .float-end
-          = link_to 'Add new', new_note_path
-      .card-body
-        table.table
-          thead
-            tr
-              th scope="col"
-                | City
-              th scope="col"
-                | Content
-              th scope="col"
-                | Weather
-              th scope="col"
-                | Temp
-              th scope="col"
-                | Cases
-              th scope="col"
-                | Deaths
-              th scope="col"
-                | Recovered
-              th scope="col"
-                | Actions
-          tbody
-          - @notes.each do |note|
-            tr
-              td
-                = note.city.name
-              td
-                = note.content
-              td
-                = note.weather_report.weather
-              td
-                = "#{note.weather_report.temperature} &deg;C".html_safe
-              td
-                = note.covid_report.cases
-              td
-                = note.covid_report.deaths
-              td
-                = note.covid_report.recovered
-              td
-                = link_to 'Edit', edit_note_path(note)
-                '
-                = link_to 'Delete', note_path(note), method: :delete
+      .card
+        .card-header
+          .float-start
+            h3.fw-light Travel notes
+          .float-end
+            = link_to 'Add new', new_note_path
+        .card-body
+          table.table
+            thead
+              tr
+                th scope="col"
+                  | City
+                th scope="col"
+                  | Content
+                th scope="col"
+                  | Weather
+                th scope="col"
+                  | Temp
+                th scope="col"
+                  | Cases
+                th scope="col"
+                  | Deaths
+                th scope="col"
+                  | Recovered
+                th scope="col"
+                  | Actions
+            tbody
+            - @notes.each do |note|
+              tr
+                td
+                  = note.city.name
+                td
+                  = note.content
+                td
+                  = note.weather_report.weather
+                td
+                  = "#{note.weather_report.temperature} &deg;C".html_safe
+                td
+                  = note.covid_report.cases
+                td
+                  = note.covid_report.deaths
+                td
+                  = note.covid_report.recovered
+                td
+                  = link_to 'Edit', edit_note_path(note)
+                  '
+                  = link_to 'Delete', note_path(note), method: :delete
   .d-flex.justify-content-center
     = paginate @notes

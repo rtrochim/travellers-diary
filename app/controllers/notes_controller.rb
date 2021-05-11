@@ -3,7 +3,7 @@ class NotesController < ApplicationController
   before_action :load_note, only: %i[update destroy edit]
 
   def index
-    @notes = Note.where(user: current_user).includes(:user, :city, :weather_report, :covid_report).page(params[:page])
+    @notes = Note.where(user: current_user).includes(:user, :city, :weather_report, :covid_report).page(params[:page]).per(10)
   end
 
   def new
