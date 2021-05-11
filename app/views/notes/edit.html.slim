@@ -8,7 +8,8 @@
       .card-body
         .mb-3
           = f.label :city_id, "City", class: 'form-label'
-          = f.select :city_id, Location.city.map { |loc| [loc.name,loc.id] }, {selected: @note.city_id}, {class: 'form-control'}
+          = f.select :city_id, Location.city.map { |loc| [loc.name,loc.id] }, {selected: @note.city_id}, {class: 'form-control',
+          disabled: true}
         .mb-3
           = f.label :content, "Text", class: 'form-label'
           = f.text_area :content, class: 'form-control'

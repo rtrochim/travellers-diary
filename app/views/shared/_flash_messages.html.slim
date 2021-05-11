@@ -1,0 +1,5 @@
+- flash.each do |name, msg|
+  - alert_class = { success: 'success', notice: 'info', error: 'danger', alert: 'warning' }.with_indifferent_access[name]
+  .flash-notice.alert.alert-dismissible class="alert-#{alert_class}"
+    div.text-center = msg
+    button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
