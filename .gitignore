@@ -41,3 +41,5 @@ yarn-debug.log*
 
 # Ignore IDE configuration
 .idea
+# Ignore generated code coverage
+coverage

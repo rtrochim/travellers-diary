@@ -12,11 +12,4 @@ class User < ApplicationRecord
     end
   end
 
-  def self.new_with_session(params, session)
-    super.tap do |user|
-      if (data = session['devise.google_data'] && session['devise.google_data']['extra']['raw_info']) && user.email.blank?
-        user.email = data['email']
-      end
-    end
-  end
 end
